@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+<ul>
+{% for meeting in meetings%}
+<li> <a href="{% url 'meeting-details' meeting.id %}">{{meeting.meetingtitle}} </li>
+{%endfor%}
+</ul>
+
+{% comment %} <h2> Meeting </h2>
+<p> Meeting Title: {{Meeting.meetingtitle}}<br/>
+Meeting Date: {{Meeting.meetingdate}}<br/>
+Meeting Time: {{Meeting.meetingtime}}<br/>
+Agenda: {{Meeting.agenda}}<br/>
+</p> {% endcomment %}
+{%endblock%}
