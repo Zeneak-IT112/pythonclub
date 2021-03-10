@@ -1,6 +1,2 @@
 pythonclub/settings.ini
-club/__pycache__/tests.cpython-38.pyc
-club/__pycache__/urls.cpython-38.pyc
-club/__pycache__/views.cpython-38.pyc
-pythonclub/__pycache__/settings.cpython-38.pyc
-pythonclub/__pycache__/urls.cpython-38.pyc
+*.pyc
